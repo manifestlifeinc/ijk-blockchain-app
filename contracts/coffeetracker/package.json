@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "description": "a fair trade supply network with Hyperledger Composer and IBM Blockchain",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/coffeetracker.bna",
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/coffeetracker.bna"
   },
   "keywords": [
     "composer",
